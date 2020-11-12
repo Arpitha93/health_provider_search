@@ -16,7 +16,7 @@ and display related details.
 		- Run application `npm start`
 	- **Steps to run in Docker (recommended)**
 		- Install Docker
-		- Build docker image from source folder `docker build -t myApp/healthapp .`
-		- Run our built image `docker run -p 3000:3000 -d --name healthapp myApp/healthapp`
+		- Build docker image from source folder `docker build -t myapp/healthapp .`
+		- Run our built image `docker run -p 3000:3000 -d --name healthapp myapp/healthapp`
 - View the http page http://localhost:3000.
 
