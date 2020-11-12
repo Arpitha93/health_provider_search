@@ -1,23 +1,22 @@
-# health_provider_search
-ReactJs web application to find health provider by their first name 
+# Getting Started
+This is a simple frontend application to query health provider by their first name
+and display related details. 
 
-# Getting started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+# Prerequisites
+- Git
+- nodejs
+- docker (optional & recommended way)
 
-# Pre-requisites
-	- Git
-	- NodeJs version 12 or higher
-	- DataTable
+# Building and Running application
 
-# Getting Started with Create React App
-`git clone https://github.com/Arpitha93/health_provider_search.git`
-
-`npm install`
-
-# Running the application
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
+- Clone the app `git clone https://github.com/Arpitha93/health_provider_search.git`
+- `cd health_provider_search`
+	- **Steps to run directly (not recommended)**
+		- Install dependencies `npm install`
+		- Run application `npm start`
+	- **Steps to run in Docker (recommended)**
+		- Install Docker
+		- Build docker image from source folder `docker build -t myApp/healthapp .`
+		- Run our built image `docker run -p 3000:3000 -d --name healthapp myApp/healthapp`
+- View the http page http://localhost:3000.
 
